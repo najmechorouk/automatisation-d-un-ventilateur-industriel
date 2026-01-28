@@ -48,9 +48,9 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
   * Compteur incrémental **CTU**
   * Conditions de sécurité
   
-![Le programme](images/LD_programme)
+![Le programme](images/LD_programme.PNG)
 
-![Les variables utilisées](images/Variables)
+![Les variables utilisées](images/Variables.PNG)
 
 ---
 
