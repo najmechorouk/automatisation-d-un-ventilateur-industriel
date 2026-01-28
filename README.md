@@ -47,7 +47,9 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
   * Fonctions **Set/Reset**
   * Compteur incrémental **CTU**
   * Conditions de sécurité
+  
 ![Le programme](/images/LD_programme)
+
 ![Les variables utilisées](/images/Variables)
 
 ---
