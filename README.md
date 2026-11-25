@@ -64,6 +64,26 @@ Le programme a été :
 
 
 
+## Simulation
+
+Ce système fonctionne en deux modes (mode manuel et mode automatique) et ne peut démarrer que lorsque le bouton ON (c001) est activé. Le compteur se réinitialise chaque fois la machine s’éteind, donc au début cv=0.
+![Début de la simulation](images/debut.PNG)
+![Début de la simulation](images/debuts.PNG)
+En mode manuel, le ventilateur démarre lorsque l’interrupteur de marche (c002) s’active ce qui allume la led verte (c007) et active le ventilateur (c005).
+![Démarrage du ventillateur en mode manuel](images/mode_man_led_vert.PNG)
+Dès qu’une panne occure, le disjoncteur (c004) s’active ce qui donne une impulsion au UTC pour incrémenter le compteur cv=1 et coupe le circuit désactivant ainsi le ventilateur et la led verte. Le buzzeur s’active par conséquence pour signaler un problème dans la machine.
+![Occurrence d'une panne](images/panne_occurre.PNG)
+Lorsque (c004) se désactive càd la machine est réparrée, le système continue son fonctionnement normal mais le compteur reste cv=1.
+![Compteur de panne enregistre 1](images/compteur1.PNG)
+En mode automatique, le bouton marche manuel (c002) doit être désactivé pour éviter les erreurs. Lorsque le bouton poussoir marche automatique (c003) s’active pour 5s, le ventilateur (c005) démarre et la led verte (c007) s’allume jusqu’à ce que le bouton stop automatique le reset (c006) s’active.
+![Mode automatique](images/automatic.PNG)
+Même pour le mode manuel, le mode automatique a le bouton de sécurité (c004).
+![Sécurité automatique](images/securite.PNG)
+Lorsque le nombre de pannes dépasse 5, la led rouge s’allume.
+![Nombre de panne dépasse 5](images/led_red.PNG)
+
+
+
 ## Objectifs pédagogiques
 
 * Comprendre l’architecture d’un programme PLC
