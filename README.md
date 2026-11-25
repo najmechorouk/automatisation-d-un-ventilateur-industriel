@@ -1,13 +1,13 @@
 # Mini-projet – Automatisation d’un ventilateur industriel (PLCnext)
 
-## 📌 Description
+## Description
 
 Ce mini-projet consiste à concevoir et simuler un **système d’automatisation industrielle** pour la commande d’un **ventilateur industriel**, en utilisant l’environnement **PLCnext Engineer** et le contrôleur **AXC F 1152**.
 Le système intègre des **modes de fonctionnement manuel et automatique**, des **fonctions de sécurité**, ainsi qu’un **compteur de pannes** avec signalisation visuelle et sonore.
 
 ---
 
-## ⚙️ Environnement technique
+## Environnement technique
 
 * **Logiciel** : PLCnext Engineer 2025 (LTS)
 * **Contrôleur** : Phoenix Contact **AXC F 1152** (mode simulation)
@@ -16,7 +16,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
 
 ---
 
-## 🧠 Fonctionnalités principales
+## Fonctionnalités principales
 
 * Démarrage du système via bouton **ON**
 * Deux modes de fonctionnement :
@@ -37,7 +37,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
 
 ---
 
-## 🧩 Structure du programme
+## Structure du programme
 
 * **Network 1** : Commande du ventilateur (modes manuel / automatique)
 * **Network 2** : Gestion et comptage des pannes
@@ -54,7 +54,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
 
 ---
 
-## 🧪 Validation
+## Validation
 
 Le programme a été :
 
@@ -64,7 +64,7 @@ Le programme a été :
 
 ---
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 
 * Comprendre l’architecture d’un programme PLC
 * Maîtriser la programmation **Ladder**
