@@ -5,7 +5,7 @@
 Ce mini-projet consiste à concevoir et simuler un **système d’automatisation industrielle** pour la commande d’un **ventilateur industriel**, en utilisant l’environnement **PLCnext Engineer** et le contrôleur **AXC F 1152**.
 Le système intègre des **modes de fonctionnement manuel et automatique**, des **fonctions de sécurité**, ainsi qu’un **compteur de pannes** avec signalisation visuelle et sonore.
 
----
+
 
 ## Environnement technique
 
@@ -14,7 +14,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
 * **Langage** : Ladder Diagram (LD – IEC 61131-3)
 * **Mode d’exécution** : Simulation PLCnext (TCP/IP en mode simulation)
 
----
+
 
 ## Fonctionnalités principales
 
@@ -35,7 +35,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
   * LED rouge : défaut critique
   * Buzzer : alerte en cas de panne
 
----
+
 
 ## Structure du programme
 
@@ -52,7 +52,7 @@ Le système intègre des **modes de fonctionnement manuel et automatique**, des 
 
 ![Les variables utilisées](images/Variables.PNG)
 
----
+
 
 ## Validation
 
@@ -62,7 +62,7 @@ Le programme a été :
 * Testé et validé dans **PLCnext Engineer**
 * Vérifié en conditions normales et en cas de panne
 
----
+
 
 ## Objectifs pédagogiques
 
